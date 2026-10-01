@@ -1,3 +1,4 @@
+import process from "node:process";
 const GATEWAY_URL = "https://connector-gateway.lovable.dev/twilio";
 
 export type Channel = "sms" | "whatsapp";
